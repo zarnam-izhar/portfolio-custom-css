@@ -1,0 +1,70 @@
+
+.contact-container {
+    padding-top: 8rem; 
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .contact-content {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  
+  .contact-info {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-heading {
+    font-size: 3rem; 
+    font-weight: bold;
+  }
+  
+  .contact-description {
+    font-size: 1.875rem; 
+    color: #6B7280; 
+    padding-top: 0.5rem; 
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.25rem;
+  }
+  
+ 
+  .contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-input, .form-textarea {
+    height: 2.5rem; 
+    background-color: transparent;
+    border: 1px solid #4B5563; 
+    padding: 0.5rem;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  .send-btn {
+    background-color: #10B981;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    border-radius: 4px;
+  }
+  
+  .send-btn:hover {
+    background-color: #059669;
+  }
+  
