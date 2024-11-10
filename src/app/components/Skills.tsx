@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="skills-text" data-aos="zoom-in-up">
           <h2 className="skills-title">Technologies I work with</h2>
           <p className="skills-description">
-            I'm working with HTML, CSS, Tailwind, and Next.js for my projects
+            I&apos;m working with HTML, CSS, Tailwind, and Next.js for my projects
           </p>
         </div>
 
